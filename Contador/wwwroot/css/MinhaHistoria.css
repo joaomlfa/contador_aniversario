@@ -1,8 +1,9 @@
 ﻿body {
-    background-image: url(../914762.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../tijoloFormatado.jpg);
+    background-repeat: repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100%;
 }
+

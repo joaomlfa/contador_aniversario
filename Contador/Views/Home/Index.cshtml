@@ -2,11 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
     <head>
+        <script src="https://use.fontawesome.com/6c1dd02835.js"></script>
         <link href="~/css/Contador.css" rel="stylesheet" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="~/favicon.ico" />
+
     </head>
     <body>
         <div class="text-center" id="divContador">
-            <span id="clock"></span>
+            <div class="container">
+
+                <ul>
+                    <li class="dadosContador"><span id="days"></span>Dias</li>
+                    <li class="dadosContador"><span id="hours"></span>Horas</li>
+                    <li class="dadosContador"><span id="minutes"></span>Minutos</li>
+                    <li class="dadosContador"><span id="seconds"></span>Segundos</li>
+
+                </ul>
+                <i class="fa fa-heartbeat" aria-hidden="true" style="color:aliceblue"></i><h1 id="tituloContador">Para um ano...</h1>
+            </div>
         </div>
     </body>
 
